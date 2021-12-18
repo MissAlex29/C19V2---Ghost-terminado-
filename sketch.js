@@ -10,12 +10,12 @@ function preload(){
   doorImg = loadImage("door.png");
   climberImg = loadImage("climber.png");
   ghostImg = loadImage("ghost-standing.png");
-  spookySound = loadSound("spooky.wav");
+  
 }
 
 function setup() {
   createCanvas(600, 600);
-  spookySound.loop();
+
   tower = createSprite(300,300);
   tower.addImage("tower",towerImg);
   tower.velocityY = 1;
